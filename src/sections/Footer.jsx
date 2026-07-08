@@ -97,7 +97,15 @@ export default function Footer() {
 
           {/* Signature */}
           <p className="text-[10px] tracking-wider text-[#64748B] mt-1">
-            DESIGNED BY <span className="text-[#F59E0B] font-medium">SHANMUKH SRINADH</span>
+            DESIGNED BY{" "}
+            <a
+              href="https://shanmukhportfolio.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#F59E0B] font-medium hover:text-[#FBBF24] transition-colors duration-300"
+            >
+              SHANMUKH SRINADH
+            </a>
           </p>
 
         </div>
